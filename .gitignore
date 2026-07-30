@@ -1,0 +1,144 @@
+###############################################################################
+# SailPoint ISC Lab - .gitignore
+###############################################################################
+
+##############################
+# Operating System Files
+##############################
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+##############################
+# Visual Studio Code
+##############################
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+##############################
+# JetBrains IDEs
+##############################
+
+.idea/
+
+##############################
+# Python
+##############################
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.venv/
+venv/
+env/
+
+##############################
+# Node.js
+##############################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+##############################
+# Logs
+##############################
+
+*.log
+logs/
+
+##############################
+# Temporary Files
+##############################
+
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+
+##############################
+# Archives
+##############################
+
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+##############################
+# Environment Variables
+##############################
+
+.env
+.env.*
+!.env.example
+
+##############################
+# Secrets & Credentials
+##############################
+
+secrets/
+credentials/
+*.pem
+*.key
+*.pfx
+*.jks
+
+##############################
+# OAuth Tokens
+##############################
+
+token.json
+tokens.json
+oauth.json
+
+##############################
+# Postman Local Data
+##############################
+
+.postman/
+
+##############################
+# Temporary Exports
+##############################
+
+exports/temp/
+imports/temp/
+
+##############################
+# Backup Files
+##############################
+
+backups/temp/
+
+##############################
+# Generated Reports
+##############################
+
+reports/generated/
+
+##############################
+# Miscellaneous
+##############################
+
+*.cache
+.cache/
