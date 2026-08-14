@@ -1,144 +1,56 @@
-###############################################################################
-# SailPoint ISC Lab - .gitignore
-###############################################################################
+# SailPoint ISC Exports
+*.export
+*.zip
 
-##############################
-# Operating System Files
-##############################
+# Secrets and Credentials
+*.env
+*.key
+*.pem
+*.crt
+*.p12
+*secret*
+*credential*
+*access-token*
+*refresh-token*
 
-# Windows
-Thumbs.db
-Desktop.ini
-$RECYCLE.BIN/
+# API Keys and Tokens
+*apikey*
+*auth-token*
 
-# macOS
+# Local VS Code & OS files
+.vscode/
 .DS_Store
-.AppleDouble
-.LSOverride
+Thumbs.db
 
-# Linux
-*~
-
-##############################
-# Visual Studio Code
-##############################
-
-.vscode/*
-!.vscode/extensions.json
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-
-##############################
-# JetBrains IDEs
-##############################
-
-.idea/
-
-##############################
 # Python
-##############################
-
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
-*.pyd
-.python-version
-.venv/
 venv/
 env/
+*.egg-info/
 
-##############################
-# Node.js
-##############################
+# PowerShell
+*.ps1
+*.psd1
+*.psm1
 
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-##############################
-# Logs
-##############################
-
-*.log
-logs/
-
-##############################
-# Temporary Files
-##############################
-
-*.tmp
-*.temp
+# Backup files
 *.bak
-*.old
+*.tmp
 *.swp
+*~
 
-##############################
-# Archives
-##############################
+# IDE and Editor files
+*.iml
+*.idea/
+*.code-workspace
 
-*.zip
-*.tar
-*.gz
-*.7z
-*.rar
+# Compiled files
+*.class
+*.jar
+*.war
 
-##############################
-# Environment Variables
-##############################
-
-.env
-.env.*
-!.env.example
-
-##############################
-# Secrets & Credentials
-##############################
-
-secrets/
-credentials/
-*.pem
-*.key
-*.pfx
-*.jks
-
-##############################
-# OAuth Tokens
-##############################
-
-token.json
-tokens.json
-oauth.json
-
-##############################
-# Postman Local Data
-##############################
-
-.postman/
-
-##############################
-# Temporary Exports
-##############################
-
-exports/temp/
-imports/temp/
-
-##############################
-# Backup Files
-##############################
-
-backups/temp/
-
-##############################
-# Generated Reports
-##############################
-
-reports/generated/
-
-##############################
-# Miscellaneous
-##############################
-
-*.cache
-.cache/
+# Sample data with PII
+sample-data/*-real.*
+sample-data/*-sensitive.*
